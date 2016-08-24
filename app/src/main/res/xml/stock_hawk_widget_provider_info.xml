@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+android:initialKeyguardLayout="@layout/w_main_layout"
+android:initialLayout="@layout/w_main_layout"
+android:minHeight="80dp"
+android:minWidth="260dp"
+android:previewImage="@drawable/stockmarket2"
+android:resizeMode="horizontal|vertical"
+android:updatePeriodMillis="1800000"
+android:widgetCategory="home_screen" />
+
