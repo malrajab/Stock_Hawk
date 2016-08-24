@@ -54,6 +54,7 @@ public class MyStocksActivity extends AppCompatActivity {
       ((TextView)findViewById(R.id.market_Status)).setText("");
 
     FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+    fab.setContentDescription(mContext.getString(R.string.fab_btn_contentDescription));
     assert fab != null;
     fab.setOnClickListener(new View.OnClickListener() {
       @Override public void onClick(View v) {
@@ -70,7 +71,7 @@ public class MyStocksActivity extends AppCompatActivity {
                               new String[] { input.toString() }, null);
                       if (c!=null&&c.getCount() != 0) {
                         Toast toast =
-                                Toast.makeText(MyStocksActivity.this, "This stock is already saved!",
+                                Toast.makeText(MyStocksActivity.this, mContext.getString(R.string.stock_already_saved),
                                         Toast.LENGTH_LONG);
                         toast.setGravity(Gravity.CENTER, Gravity.CENTER, 0);
                         toast.show();

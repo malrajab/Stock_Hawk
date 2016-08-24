@@ -143,7 +143,7 @@ public class StockTaskService extends GcmTaskService{
         try {
           ContentValues contentValues = new ContentValues();
           // update ISCURRENT to 0 (false) so new data is current
-          if (isUpdate){
+          if (isUpdate || params.getTag().equals("periodic")){
             contentValues.put(QuoteColumns.ISCURRENT, 0);
             mContext.getContentResolver().update(QuoteProvider.Quotes.CONTENT_URI, contentValues,
                     null, null);

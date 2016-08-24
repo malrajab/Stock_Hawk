@@ -21,12 +21,10 @@ import com.sam_chordas.android.stockhawk.utils.Constants;
  */
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class DetailWidgetRemoteViewService extends RemoteViewsService {
-
     private static final String[] QUOTE_COLUMNS = {
              QuoteDatabase.QUOTES+ "." + QuoteColumns._ID,
             QuoteColumns.SYMBOL,
-            QuoteColumns.BIDPRICE
-             };
+            QuoteColumns.BIDPRICE};
     static final int INDEX_ID = 0;
     static final int INDEX_SYMBOL = 1;
     static final int INDEX_BIDPRICE = 2;
@@ -39,7 +37,6 @@ public class DetailWidgetRemoteViewService extends RemoteViewsService {
 
             @Override
             public void onCreate() {
-
             }
 
             @Override

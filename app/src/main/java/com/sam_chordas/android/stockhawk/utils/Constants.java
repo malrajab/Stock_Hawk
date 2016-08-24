@@ -12,8 +12,6 @@ public class Constants {
     public static final String[] yearLabl={"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul"
     ,"Aug","Sep","Oct","Nov","Dec"};
 
-
-
     // sharedprefrence keys
     public static final String GRAPH_INIT_REQ_PREF = "GRAPH_INIT_REQ_PREF_";
     public static final String GRAPH_DRAW_PREF = "GRAPH_DRAW_PREF_";

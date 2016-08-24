@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">الأسهم</string>
+<string name="action_example">مثال</string>
+<string name="action_settings">إعدادات</string>
+<string name="action_change_units">وحدات التغيير</string>
+<string name="symbol_search">ابحث رمز </string>
+<string name="content_test">ابحث رمز الأسهم</string>
+<string name="network_toast">عذرا رمز الأوراق المالية غير متوفرة</string>
+
+<!-- Empty Stock -->
+<string name="empty_stock_list">عذرا رمز الأوراق المالية غير متوفرة</string>
+<string name="empty_stock_list_no_network">لا معلومات الأوراق المالية المتاحة. الشبكة غير متوفرة لجلب البيانات.</string>
+<string name="empty_stock_list_server_down">لا معلومات الأوراق المالية المتاحة. الملقم لا يعودون البيانات.</string>
+<string name="empty_stock_list_server_error">لا معلومات الأوراق المالية المتاحة. الملقم لا تعود بيانات صالحة. يرجى التحقق من وجود نسخة محدثة من أسعار الأسهم.</string>
+<string name="empty_stock_list_invalid_stock_name">لا معلومات الأوراق المالية المتاحة. اسم المنظمات طلب غير صحيح أو لا يمكن أن تجد</string>
+<string name="action_refresh" >تحديث</string>
+<string name="no_fav_dialog_title" >لا يوجد تطابق</string>
+<string name="stock_refresh" >يتم تحديثها الأوراق المالية البيانات</string>
+<string name="sample_status_sign" >تغيير قيمة هو ما يصل</string>
+<string name="no_name_stock_name" >الرسم البياني التاريخ الأسهم</string>
+<string name="default_value_of_market_status" >السوق مفتوح</string>
+<string name="market_is_close" >السوق مغلق</string>
+<string name="action_change_units_altr" >وحدات التغيير</string>
+<string name="appwidget_text">مشاهدة الأوراق </string>
+<string name="configure">اختر اسما لعنصر واجهة المستخدم</string>
+<string name="stock_already_saved">يتم حفظ هذا مؤشر الأسهم بالفعل.</string>
+<string name="fab_btn_contentDescription">انقر فوق هذا الزر لإضافة رمز الأسهم الجديدة.</string>
+</resources>
